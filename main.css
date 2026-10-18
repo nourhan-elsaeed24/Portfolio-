@@ -1,0 +1,225 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+}
+
+header h1 {
+    font-size: 32px;
+    color: pink;
+}
+
+header p {
+    font-size: 19px;
+}
+
+.about {
+    text-align: start;
+    margin-top: 50px;
+}
+
+.about h2 {
+    color: pink;
+    font-size: 28px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 3;
+}
+
+.about-i {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-top: -25px;
+    margin-right: 120px;
+    border-radius: 30px;
+
+}
+
+.skills h2 {
+    background-color: pink;
+    font-size: 28px;
+}
+
+.skills-n {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-n ul {
+    margin: 0px;
+}
+
+.skills-images {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+
+.skills-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: pink;
+}
+
+.skills ul {
+    line-height: 2;
+}
+
+.skills li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.ex h2 {
+    background-color: pink;
+    font-size: 28px;
+}
+
+.ex p {
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+}
+
+.ex-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: 1px solid white;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.ex-table th {
+    border: 1px solid white;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.ex-table td {
+    border: 1px solid white;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.ex-table thead tr {
+    background-color: pink;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+}
+
+.ex-table ul {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.footer {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.contact h2 {
+    background-color: pink;
+    font-size: 28px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.personal {
+    border: 1px solid pink;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.personal legend {
+    padding: 5px;
+    color: pink;
+}
+
+.fg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 15px;
+}
+
+.fgg {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    align-items: center;
+}
+
+.fgg input {
+    width: 200px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+
+.bg {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 4px 12px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+
+}
+
+.btn-send {
+    background-color: rgb(41, 41, 220);
+}
+
+.btn-send:hover {
+    background-color: white;
+    color: rgb(41, 41, 220);
+}
+
+.btn-clear {
+    background-color: red;
+}
+
+.btn-clear:hover {
+    background-color: white;
+    color: red;
+}

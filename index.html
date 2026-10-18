@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>Nourhan Alsaeed</h1>
+        <p>Full Stack Developer</p>
+    </header>
+    <!-- about -->
+    <section class="about">
+        <h2>About Me</h2>
+        <img class="about-i" src="images/photo_1_2026-10-18_05-09-19.jpg">
+        <p>
+            I am a Business Information Systems graduate
+            with a strong passion for web development and
+            technology.<br>I am an aspiring Full Stack Developer
+            who enjoys creating modern, responsive, and
+            user-friendly websites.<br>
+            I enjoy learning new technologies, solving
+            problems, and transforming creative ideas into
+            practical digital solutions.<br>I am always eager
+            to improve my skills, take on new challenges,
+            and grow both personally and professionally.
+        </p>
+    </section>
+    <!-- skills -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-n">
+            <ul>
+                <li><a href="#" class="link">HTML</a></li>
+                <li><a href="#" class="link">CSS</a></li>
+                <li><a href="#" class="link">Bootstrap</a></li>
+                <li><a href="#" class="link">JavaScript</a></li>
+                <li><a href="#" class="link">Vue.js</a></li>
+                <li><a href="#" class="link">PHP</a></li>
+                <li><a href="#" class="link">Laravel</a></li>
+                <li><a href="#" class="link">My SQL</a></li>
+            </ul>
+            <div class="skills-images">
+                <img src="images/photo_1_2026-10-17_20-58-36.jpg" title="html.css.js">
+                <img src="images/photo_2_2026-10-17_20-58-36.jpg" title="Bootstrap">
+                <img src="images/photo_3_2026-10-17_20-58-36.jpg" title="vue.js">
+                <img src="images/photo_4_2026-10-17_20-58-36.jpg" title="sql">
+                <img src="images/photo_5_2026-10-17_20-58-36.jpg" title="laravel">
+                <img src="images/photo_6_2026-10-17_20-58-36.jpg" title="php">
+            </div>
+        </div>
+    </section>
+    <!-- table -->
+    <section class="ex">
+        <h2>Experience Timeline</h2>
+        <p>Professional Experience Overview</p>
+        <table class="ex-table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Logo</th>
+                    <th>Role</th>
+                    <th>Key Achievement</th>
+                    <th>Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Techcorp-Senior Full Stack Developer -->
+                <tr>
+                    <td rowspan="2" class="company">Techcorp</td>
+                    <td rowspan="2" class="logo">
+                        <img class="logo-img" src="images/photo_2026-10-18_03-58-35.jpg">
+                    </td>
+                    <td>Senior Full Stack Developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>jan 2023-present</td>
+                </tr>
+                <tr>
+                    <td>full stack developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2021-2023</td>
+                </tr>
+                <!-- Digital Anency Pro -->
+                <tr>
+                    <td>Digital Anency Pro</td>
+                    <td class="logo-cell">
+                        <img class="logo-img" src="images/photo_2026-10-18_03-58-52.jpg" alt="Digital Agency Pro Logo">
+                    </td>
+                    <td>frontend developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+
+                <!-- Web Design Studio -->
+                <tr>
+                    <td>Web Design Studio</td>
+                    <td class="logo">
+                        <img class="logo-img" src="images/photo_2026-10-18_03-59-04.jpg" alt="Web Design Studio Logo">
+                    </td>
+                    <td>junior web developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" class="footer">
+                        Total Experience 5+ years in web developer
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <!-- contact me -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you're looking for a dedicated full-stack developer to bring your vision to life or have any inquiries,
+            don't hesitate to drop me a message below.</p>
+        <form>
+            <fieldset class="personal">
+                <legend>personal information</legend>
+
+                <div class="fg">
+                    <!-- Row 1 -->
+                    <div class="fgg">
+                        <label for="first-name">first name</label>
+                        <input type="text" id="first-name" name="first_name">
+                    </div>
+                    <div class="fgg">
+                        <label for="last-name">last name</label>
+                        <input type="text" id="last-name" name="last_name">
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="fgg">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="fgg">
+                        <label for="phone">phone number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="fgg">
+                        <label for="meeting-date">preferred meeting date:</label>
+                        <input type="date" id="meeting-date" name="meeting_date">
+                    </div>
+                    <div class="fgg">
+                        <label for="best-time">best time to Contact</label>
+                        <input type="text" id="best-time" name="best_time">
+                    </div>
+                </div>
+            </fieldset>
+            <!-- buttons -->
+            <div class="bg">
+                <button type="submit" class="btn btn-send">Send Massage</button>
+                <button type="reset" class="btn btn-clear">Clear Data</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
